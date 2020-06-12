@@ -11,6 +11,8 @@
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
+
+  --shadow-box: 0 2rem 6rem rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -22,11 +24,11 @@
 *::before,
 *::after {
   box-sizing: inherit;
-  font-size: 62.5%; // 1rem = 10px, 10px / 16px(default browser font = 62.5%
 }
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px / 16px(default browser font = 62.5%
 }
 
 body {
